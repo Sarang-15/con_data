@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="dtmf speech" language="en-us"
+          numDigits="1"
+          timeout="6">
+        <Say voice="alice" language="en-US">
+            Okay, speech recognition test. Enter any digit or say something.
+        </Say>
+    </Gather>
+    <Say voice="alice" language="en-CA">
+        Waited to long to say something. Response canceled ....
+    </Say>
+</Response>
